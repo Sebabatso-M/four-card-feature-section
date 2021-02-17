@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --darkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --lightGray: hsl(0, 0%, 98%);
+}
+
+body {
+    font-size: 0.9375rem;
+    
+    padding: 0 2.4375rem;
+    padding-top: 5.5625rem;
+}
+
+#headings {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1.3125rem;
+}
+
+#headings h2 {
+    font-weight: normal;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 4.75rem;
+}
+
+/*p span {
+    display: block;
+}*/
